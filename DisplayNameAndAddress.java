@@ -14,8 +14,6 @@ public class DisplayNameAndAddress {
 
         System.out.println("\nName: " + name);
         System.out.println("Address: " + address);
-
-        scanner.close();
     }
 }
 
