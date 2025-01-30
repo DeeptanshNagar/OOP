@@ -16,8 +16,6 @@ public class Question2 {
         } else {
             System.out.println("The number is zero.");
         }
-        
-        scanner.close();
     }
 }
 
