@@ -2,13 +2,11 @@
 
 import java.util.Scanner;
 
-public class Question2 {
+public class NumberCheck {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
-        double num = Double.parseDouble(scanner.nextLine());
-        
+        double num = Double.parseDouble(sc.nextLine());
         if (num > 0) {
             System.out.println("The number is positive.");
         } else if (num < 0) {
@@ -18,4 +16,3 @@ public class Question2 {
         }
     }
 }
-
