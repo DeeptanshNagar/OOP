@@ -1,3 +1,5 @@
+// 6th Feb 2025
+
 // write a program to find the sum of all integers between 10 and 950 that are divisible by both 6 and 9.
 
 public class SumOfMultiples {
@@ -10,7 +12,7 @@ public class SumOfMultiples {
 
         int n = (last - first) / divisor + 1; // calculates how many 18 exits between first and last
 
-        int totalSum = n * (first + last) / 2;
+        int totalSum = n * (first + last) / 2; // arithmetic progression formula
 
         
         System.out.println("Sum of integers between 10 and 950 that are divisible by both 6 and 9: " + totalSum);
