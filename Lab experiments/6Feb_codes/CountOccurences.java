@@ -8,8 +8,6 @@ public class CountOccurences {
 
         int count = 0;
 
-
-
         for (int num : array) {
 
             if (num == target) {
@@ -21,5 +19,4 @@ public class CountOccurences {
         }
         System.out.println("Occurrences of " + target + ": " + count);
     }
-
 }
