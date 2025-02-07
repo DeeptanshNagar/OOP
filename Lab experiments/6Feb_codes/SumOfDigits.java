@@ -1,3 +1,7 @@
+// 6th Feb 2025
+
+// write a java program that takes an integer as input and calculates the sum of its digits.
+
 import java.util.Scanner;
 
 public class SumOfDigits {
