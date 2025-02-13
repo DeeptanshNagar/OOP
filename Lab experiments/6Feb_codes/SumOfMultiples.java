@@ -7,10 +7,10 @@ public class SumOfMultiples {
         int start = 10, end = 950;
         int divisor = 18; // LCM of 6 and 9
 
-        int first = (start + divisor - 1) / divisor * divisor; // First multiple of divisor ≥ start
-        int last = (end / divisor) * divisor; // Last multiple of divisor ≤ end
+        int first = (start + divisor - 1) / divisor * divisor; 
+        int last = (end / divisor) * divisor;
 
-        int n = (last - first) / divisor + 1; // calculates how many 18 exits between first and last
+        int n = (last - first) / divisor + 1; 
 
         int totalSum = n * (first + last) / 2; // arithmetic progression formula
 

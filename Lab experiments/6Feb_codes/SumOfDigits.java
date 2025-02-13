@@ -12,14 +12,14 @@ public class SumOfDigits {
         int num = sc.nextInt();
         sc.close();
 
-        int sum = 0;
+        int sum = 0; // sum is initialized to 0 to store the sum of digits.
         int temp = Math.abs(num); 
 
         while (temp > 0) {
             sum += temp % 10; 
-            temp /= 10;
+            temp /= 10; // performing integer division.
         }
-
+        // process repeats until all digits are summed.
         System.out.println("Sum of digits: " + sum);
     }
 }
