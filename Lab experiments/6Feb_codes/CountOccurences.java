@@ -15,7 +15,6 @@ public class CountOccurences {
                 count++;
 
             }
-
         }
         System.out.println("Occurrences of " + target + ": " + count);
     }
