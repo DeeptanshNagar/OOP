@@ -13,7 +13,6 @@ public class CountOccurences {
             if (num == target) {
 
                 count++;
-
             }
         }
         System.out.println("Occurrences of " + target + ": " + count);
