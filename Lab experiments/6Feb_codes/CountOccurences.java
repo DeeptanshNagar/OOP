@@ -11,7 +11,6 @@ public class CountOccurences {
         for (int num : array) {   // for-each loop is used to iterate through each element of array
                                   // num takes the value of each element in array one by one.
             if (num == target) {
-
                 count++;
             }
         }
