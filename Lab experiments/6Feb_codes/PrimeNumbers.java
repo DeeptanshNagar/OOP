@@ -14,7 +14,7 @@ public class PrimeNumbers {
         System.out.println("Total prime numbers between 1 and 1000: " + count);
     }
 
-    // helper function that checks whether a given number n is prime or not
+    // helper function that checks whether a given number n is prime 
     public static boolean isPrime(int n) {
         if (n < 2) return false; // 0 and 1 are not prime numbers
         for (int i = 2; i <= Math.sqrt(n); i++) { // Check for factors from 2 to sqrt(n)
