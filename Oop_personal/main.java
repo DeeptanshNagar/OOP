@@ -44,6 +44,5 @@ public class main {
         s1.age = 20;
 
         s1.printInfo();
-
     }
 }
