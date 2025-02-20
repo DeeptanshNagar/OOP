@@ -6,8 +6,8 @@ class Student {
 
     // Default constructor
     public Student() {
-        this.name = "Default Name";
-        this.age = 18;
+        this.name = "Deeptansh Nagar";
+        this.age = 19;
     }
 
     // Parameterized constructor
@@ -26,7 +26,7 @@ class Student {
         student1.display();
 
         // Creating an object using the parameterized constructor
-        Student student2 = new Student("Alice", 20);
+        Student student2 = new Student("Vanshika", 21);
         student2.display();
     }
 }
