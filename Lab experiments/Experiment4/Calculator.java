@@ -22,4 +22,4 @@ class Calculator {
         System.out.println("Addition of two doubles: " + calc.add(5.5, 10.5));
         System.out.println("Addition of three integers: " + calc.add(1, 2, 3));
     }
-} 
+}
