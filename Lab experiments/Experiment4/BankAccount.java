@@ -5,8 +5,6 @@ class BankAccount {
     public BankAccount(double initialBalance) {
         this.balance = initialBalance;
     }
-
-    // Public method to deposit funds
     public void deposit(double amount) {
         if (amount > 0) {
             balance += amount;
