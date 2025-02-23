@@ -1,7 +1,5 @@
 class BankAccount {
     private double balance;
-
-    // Constructor to initialize balance
     public BankAccount(double initialBalance) {
         this.balance = initialBalance;
     }
