@@ -31,4 +31,4 @@ public class Inheritance {
         Dog myDog = new Dog("Buddy");
         myDog.makeSound();
     }
-}
+} 
