@@ -13,4 +13,3 @@ public class Experiment3 {
         System.out.printf("The simple interest is: %.2f\n", simpleInterest);
     }
 }
-
