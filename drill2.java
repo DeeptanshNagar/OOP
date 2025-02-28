@@ -1,17 +1,14 @@
 class drill2 {
     public static void main(String[] args) {
-        int[] list = new int[10];
-        int[] nums = {1,2,3};
-        int[][] table = { // a variable-length table
-            {1,2,3},
-            {4,5},
-            {6,7,8,9}
-        };
-        // System.out.println("length of list is " + list.length);
-        // System.out.println(nums.length);
-        // System.out.println(table.length);
-        System.out.println(table[0].length);
-        System.out.println(table[1].length);
-        System.out.println(table[2].length);
+        String s1 = "hello";
+        String s2 = "hEllo";
+        String s3 = s1 + " " + s2;
+        System.out.println(s3);
+        int len = s1.length();
+        System.out.println(len);
+        System.out.println(s1.substring(0,3));
+        System.out.println(s1.equalsIgnoreCase(s2)); // true
+        char ch = s2.charAt(1);
+        System.out.println(ch);
     }
 }
