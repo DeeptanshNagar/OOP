@@ -11,4 +11,4 @@ class drill2 {
         char ch = s2.charAt(1);
         System.out.println(ch);
     }
-}
+} 
