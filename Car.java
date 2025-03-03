@@ -1,19 +1,14 @@
 class Car {
-    // Field (Instance Variable)
-    String brand;  // Stores the brand of the car
-
-    // Constructor
-    Car(String brandName) {
-        brand = brandName;
+    String model;
+    Car(String m){
+        model = m;
     }
-
-    // Method to display the brand
-    void showBrand() {
-        System.out.println("Car Brand: " + brand);
+    void display() {
+        System.out.println("Model: " + model);
     }
 
     public static void main(String[] args) {
-        Car myCar = new Car("Toyota"); // Creating an object
-        myCar.showBrand(); // Calling method to display field value
+        Car myCar = new Car("punto");
+        myCar.display();
     }
 }
