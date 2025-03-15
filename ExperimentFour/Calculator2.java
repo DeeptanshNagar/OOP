@@ -13,12 +13,7 @@ class Calculator2 {
     int add(int a, int b, int c) {
         return a + b + c;
     }
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        Calculator2 calc = new Calculator2();
-
-        System.out.print("Enter two integers: ");
+"Enter two integers: ");
         int int1 = sc.nextInt();
         int int2 = sc.nextInt();
         System.out.println("Sum of two integers: " + calc.add(int1, int2));
