@@ -35,4 +35,3 @@ class Calculator2 {
         System.out.println("Sum of three integers: " + calc.add(int3, int4, int5));
     }
 }
- 
