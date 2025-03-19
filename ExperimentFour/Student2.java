@@ -24,22 +24,22 @@ class Student2 {
         // Display university name using static method
         Student2.displayUniversityName();
         
-        // // Creating student objects
-        // Student2 student1 = new Student2("keshav");
-        // Student2 student2 = new Student2("Jindal");
-        // Student2 student3 = new Student2("Virat");
+        // Creating student objects
+        Student2 student1 = new Student2("keshav");
+        Student2 student2 = new Student2("Jindal");
+        Student2 student3 = new Student2("Virat");
         
-        // // Display student details
-        // student1.displayStudentInfo();
-        // student2.displayStudentInfo();
-        // student3.displayStudentInfo();
+        // Display student details
+        student1.displayStudentInfo();
+        student2.displayStudentInfo();
+        student3.displayStudentInfo();
         
-        // // Modifying the static variable
-        // Student2.universityName = "International University";
+        // Modifying the static variable
+        Student2.universityName = "International University";
         
-        // // Display student details again to show the updated static variable
-        // student1.displayStudentInfo();
-        // student2.displayStudentInfo();
-        // student3.displayStudentInfo();
+        // Display student details again to show the updated static variable
+        student1.displayStudentInfo();
+        student2.displayStudentInfo();
+        student3.displayStudentInfo();
     }
 }
