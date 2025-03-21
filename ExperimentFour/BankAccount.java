@@ -33,5 +33,8 @@ class BankAccount {
         account.checkBalance();
         account.withdraw(300);
         account.checkBalance();
+
+        BankAccount account2 =  new BankAccount(400);
+        account2.deposit();
     }
 }

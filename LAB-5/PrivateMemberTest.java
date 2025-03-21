@@ -3,7 +3,7 @@ class Parent {
 }
 class Child extends Parent {
     public void display() {
-        // System.out.println(privateMessage); // This will cause a compilation error
+        System.out.println(privateMessage); // This will cause a compilation error
         System.out.println("Cannot access private members directly.");
     }
 }
