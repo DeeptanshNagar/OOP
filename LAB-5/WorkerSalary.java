@@ -40,3 +40,4 @@ public class WorkerSalary {
         System.out.println("Alice's Pay: $" + salariedWorker.computePay(50)); 
     }
 }
+ 
