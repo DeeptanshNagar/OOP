@@ -1,5 +1,3 @@
-package TheoryAssessment;
-
 class Library {
     static class Book {
         private String title;
