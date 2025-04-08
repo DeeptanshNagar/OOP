@@ -26,3 +26,4 @@ public class EventDemo {
         anonymousHandler.handleEvent();
     }
 }
+
