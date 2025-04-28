@@ -13,3 +13,4 @@ class Student2 {
         s1.attendClass(); // Calls attendClass(), which then calls study() using this
     }
 }
+
